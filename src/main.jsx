@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ClerkProvider 
     appearance={
-      {baseTheme: Dark}
+      {baseTheme: Dark,}
     }
     publishableKey={PUBLISHABLE_KEY} afterSignOutUrl="/">
       <App />
